@@ -1,0 +1,125 @@
+
+.section-contain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1600px;
+  padding: 50px 0;
+}
+
+.section-one_aboutus,
+.section-two_aboutus,
+.section-three_aboutus {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 20px;
+  
+}
+.aboutus-title {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #009688;
+  height: 100px;
+}
+
+.aboutus-title h1 {
+  font-size: 50px;
+  color: white;
+}
+
+.aboutus-text,
+.why-choose_us{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.why-choose_us ul {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  list-style: none;
+}
+.top-image img {
+  width: 100%;
+  max-width: 500px;
+  height: 330px;
+  border-radius: 20px;
+}
+
+img{ 
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px 20px 0 0;
+  padding: 0;
+}
+
+h3, p{ 
+  text-align: center;
+  padding: 0 20px;
+}
+
+.middle-section_main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #009688;
+  margin-bottom: 50px;
+}
+.middle-title{
+  color: white;
+}
+.middle-title h3 {
+  font-size: 30px;
+}
+.section-social_icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+}
+
+.section-social_icons
+.fa-brands {
+  font-size: 50px;
+}
+a{
+  color: white;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+iframe{
+  width: 100%;
+  max-width: 500px;
+  padding: 0 10px;
+}
+
